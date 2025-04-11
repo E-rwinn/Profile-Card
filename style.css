@@ -60,3 +60,44 @@
     color: #444;
     margin-bottom: 16px;
   }
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .socials a {
+    color: #000;
+    font-size: 1.2rem;
+    transition: color 0.2s;
+  }
+  
+  .socials a:hover {
+    color: #1e90ff;
+  }
+  
+  .socials-link {
+    height: 30px;
+    width: 30px;
+
+  }
+
+  .contact-btn {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-content: flex-end;
+  }
+  
+  .contact-btn:hover {
+    background-color: #1471cc;
+  }
+  
+  
